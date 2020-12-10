@@ -1,0 +1,86 @@
+body {
+    background: #222831;  /* fallback for old browsers */
+    color: blanchedalmond;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.form-form {
+    padding: 50px 0;
+}
+
+.form-form form {
+    background-color: #fff;
+    color: #222831;
+    max-width: 600px;
+    margin: auto;
+    padding: 50px 70px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+}
+.form-1 form{
+    max-width: 900px;
+    margin: auto;
+    padding: 50px 70px;
+}
+
+.form-form .item,
+.form-1 .item {
+    border-radius: 20px;
+    margin-top: 25px;
+    padding: 10px 20px;
+}
+
+.item select{
+    padding: 30px;
+}
+
+.form-form .create-account{
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #222831;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+
+.form-1 .create-account {
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: blanchedalmond;
+    border: none;
+    color: #222831;
+    margin-top: 20px;
+}
+
+.form-form a{
+    color: #222831;
+}
+
+.form-form .others {
+    max-width: 600px;
+    background-color: #fff;
+    margin: auto;
+    padding: 35px 0;
+    text-align: center;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: #9fadca;
+    border-top: 1px solid #dee9ff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+}
+
+.center{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.error{
+    color: red;
+    text-align: center;
+}

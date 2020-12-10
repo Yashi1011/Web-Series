@@ -1,0 +1,26 @@
+body {
+    background: #222831;  /* fallback for old browsers */
+    color: blanchedalmond;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.page-header {
+    margin: 100px;
+    text-align: center;
+}
+
+.alert-box{
+    top:10px;
+    width: 35%;
+    position: relative;
+    margin: auto;
+    text-align: center;
+} 
+
+.center{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+
